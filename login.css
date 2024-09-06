@@ -1,0 +1,94 @@
+
+body {
+  font-family: 'Caveat', cursive;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login-container {
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.login-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.form-group {
+  margin-bottom: 20px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-group input[type="text"],
+.form-group input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.form-group input[type="submit"] {
+  width: 90%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.loginhead
+{
+  font-family: "Solitreo", cursive;
+}
+#loginbtn
+{
+  text-decoration: none;
+  background-color: rgba(0, 23, 174, 0.667);
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  padding: 10px;
+  text-align: center;
+  height: 60px;
+  width: 70px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 90px;
+  margin-bottom: 50px;
+  display: inline-block;
+}
+.copyright
+{
+  background-color: black;
+  text-align: center;
+  justify-content: center;
+
+}
+#copyrightcontent
+{
+  font-weight: 600;
+  text-align: center;
+  font-family: "Courgette", cursive;
+  color: white; 
+  height: 5vh;
+  justify-content: center;
+}
+.up-arrow
+{
+  float: right;
+  margin: -35px 30px 0px 0px;  
+  font-size: 30px;
+}
+.material-symbols-outlined
+{
+  font-size: 35px;
+  color: white;
+}
+
